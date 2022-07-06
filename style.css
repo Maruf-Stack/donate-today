@@ -206,10 +206,14 @@ img {
 }
 
 .email {
+    margin-top: 30px;
+    height: 200px;
+    width: 50%;
+    background-color: bisque;
+    align-items: center;
+    margin-left: 25%;
     display: flex;
     justify-content: center;
-    margin-top: 30px;
-
 }
 
 .subscribe-btn {
@@ -224,6 +228,11 @@ img {
     background-color: rgb(212, 199, 184);
     text-align: left;
     padding: 10px 5px;
+}
+
+.middle {
+    display: flex;
+
 }
 
 .footer-area {
