@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Heebo', sans-serif;
 }
 
 .banner {
@@ -56,7 +56,7 @@
 .donate-area h1 {
     font-size: 60px;
     color: black;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .donate-area p {
@@ -108,7 +108,7 @@ input {
 .our-plan h1 {
     font-size: 50px;
     color: rgba(0, 0, 0, 0.863);
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .our-plan P {
@@ -169,4 +169,76 @@ img {
     font-size: 20px;
     color: rgba(0, 0, 0, 0.555);
     font-weight: 300;
+}
+
+.about-them {
+    display: flex;
+    margin-top: 100px;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+
+.their-situation h1 {
+    font-size: 50px;
+    color: rgba(0, 0, 0, 0.863);
+    font-weight: 600;
+}
+
+.their-situation p {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.623);
+}
+
+.about-me {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.about-me h1 {
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.about-me p {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.616);
+}
+
+.email {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+
+}
+
+.subscribe-btn {
+    border: none;
+    background-color: rgba(247, 86, 58, 0.986);
+    padding: 10px 20px;
+    font-size: 15px;
+}
+
+.email input {
+    border: none;
+    background-color: rgb(212, 199, 184);
+    text-align: left;
+    padding: 10px 5px;
+}
+
+.footer-area {
+    text-align: center;
+    background-color: black;
+    color: whitesmoke;
+    margin-top: 80px;
+    height: auto;
+}
+
+.footer-area p {
+    font-weight: 300;
+    font-size: 20px;
+}
+
+#support {
+    color: rgba(167, 7, 7, 0.87);
 }
